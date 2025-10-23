@@ -50,7 +50,7 @@ I enjoy collaborating on open‑source projects, data visualisation and applied 
 ### 📝 **AI Resume & Cover Letter Generator**
 
 <p align="center">
-  <img src="{{file:file-RLWbZHgnnPXZdWMdbJr5Wm}}" alt="AI resume generator dashboard" width="60%" />
+  <img src="resume_cv.png" alt="AI resume generator dashboard" width="60%" />
 </p>
 
 **Category:** NLP  \  
@@ -61,7 +61,7 @@ I enjoy collaborating on open‑source projects, data visualisation and applied 
 ### 📄 **Gen AI PDF Q&A Chatbot**
 
 <p align="center">
-  <img src="{{file:file-LGtrzLCbuo7vt9zEqEGyyx}}" alt="PDF Q&A chatbot dashboard" width="60%" />
+  <img src="PDFChatbot.png" alt="PDF Q&A chatbot dashboard" width="60%" />
 </p>
 
 **Category:** RAG / LangChain  \  
@@ -72,7 +72,7 @@ I enjoy collaborating on open‑source projects, data visualisation and applied 
 ### 📊 **AI Review Sentiment Dashboard**
 
 <p align="center">
-  <img src="{{file:file-22ugcpza8BPCkmTAfdXr2v}}" alt="Sentiment analysis dashboard" width="60%" />
+  <img src="dashboard.png" alt="Sentiment analysis dashboard" width="60%" />
 </p>
 
 **Category:** Data + AI  \  
@@ -198,7 +198,7 @@ Below are some of the key tools and frameworks I use. The icons are served via [
 ### 🧠 **AI Mimicking Project**
 
 <p align="center">
-  <img src="{{file:file-WmwEerDrcACtAWBUCSaBrQ}}" alt="AI Mimicking illustration" width="60%" />
+  <img src="AIMimickingProject.png" alt="AI Mimicking illustration" width="60%" />
 </p>
 
 **Focus:** language translation, sentiment analysis, mathematics, economics and interactive conversations【66820626617735†L116-L119】.  
@@ -208,7 +208,7 @@ Below are some of the key tools and frameworks I use. The icons are served via [
 ### 📊 **Dynamic Sales Dashboard**
 
 <p align="center">
-  <img src="{{file:file-4cfz3p8ePaTva3X5LvJhci}}" alt="Sales dashboard illustration" width="60%" />
+  <img src="DynamicSalesDashboard.png" alt="Sales dashboard illustration" width="60%" />
 </p>
 
 Developed and maintained a sales dashboard to drive data‑informed decisions【66820626617735†L126-L130】.  
@@ -218,7 +218,7 @@ Developed and maintained a sales dashboard to drive data‑informed decisions【
 ### 🩺 **Dr.ML**
 
 <p align="center">
-  <img src="{{file:file-YJG1RXAp3YBo79PmKJX8bV}}" alt="Health analytics illustration" width="60%" />
+  <img src="drml.png" alt="Health analytics illustration" width="60%" />
 </p>
 
 Ignited personal growth by developing an advanced AI web application leveraging deep learning models【66820626617735†L133-L144】.  
