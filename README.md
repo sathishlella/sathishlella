@@ -46,31 +46,34 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 </p>
 
 ## 🧰 Triple Stack (Data • Software • Research)
-<!-- Core languages & frontend -->
+<!-- Core + Frontend -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=11" alt="Core skills" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=12" />
 </p>
 
-<!-- Data/AI stack -->
+<!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=numpy,pandas,sklearn,tensorflow,pytorch,opencv,matplotlib,seaborn,fastapi,flask,django&perline=11" alt="Data & AI" />
+  <img src="https://skillicons.dev/icons?i=numpy,pandas,scikitlearn,tensorflow,keras,opencv,fastapi,flask,django,streamlit&perline=12" />
 </p>
 
-<!-- Databases, APIs, tooling -->
+<!-- Databases / Tools -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,mongodb,redis,graphql,postman,git,github,gitlab,vscode&perline=11" alt="DBs & Tooling" />
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,mongodb,redis,graphql,postman,git,github,gitlab,vscode&perline=12" />
 </p>
 
 <!-- DevOps / Cloud -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=11" alt="DevOps & Cloud" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=12" />
 </p>
 
-<!-- BI tools not on skillicons → use badges -->
+<!-- BI & plotting (not in skillicons → use badges so there are no gaps) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" />
 </p>
+
 
 
 ---
