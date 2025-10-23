@@ -1,287 +1,102 @@
-# Sathish Lella – Data‑Driven Innovator 🚀
+# ✨ Sathish Lella — Data-Driven Innovator
 
 <!--
-  This profile README is inspired by the polished, terminal‑themed layout used by **priyamthakkar2001**.  
-  It adapts that aesthetic to highlight Sathish Lella’s own achievements, experiences and research in data science and software development.
-  The included images were generated using abstract prompts and are purely decorative; they do not depict real people or places.
+  Creative developer showcase:
+  - glitch banner (SVG) with PNG fallback
+  - typing headline
+  - gradient capsules + animated separators
+  - trophy, stats, streaks
+  - bouncy project thumbnails (GIF pulse)
+  Tip: keep all local images under /assets to ensure GitHub mobile reliability.
 -->
 
 <p align="center">
-  <img src="{{file:file-Em1czrCFCHT8Sp1UFyPiPV}}" alt="Futuristic Data & Software landscape" width="80%" />
+  <!-- Glitch banner (SVG) -->
+  <picture>
+    <source type="image/svg+xml" srcset="https://svg-banners.vercel.app/api?type=glitch&text1=Sathish%20Lella%20%F0%9F%9A%80&text2=Data%20%2B%20AI%20%2B%20Software&width=1200&height=260" />
+    <!-- PNG fallback in your repo -->
+    <img src="assets/banner-fallback.png" alt="Glitch banner" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <!-- Typing headline -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&center=true&vCenter=true&width=880&lines=Data+Analyst+%E2%80%A2+Software+Developer+%E2%80%A2+Researcher;MS+Data+Science+%7C+Building+useful+AI;Turning+data+into+decisions+%26+products" alt="typing headline" />
+</p>
+
+<!-- neon separators -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=6&section=header&reversal=true" width="100%" alt="separator"/>
 </p>
 
 <pre>
-┌─[sathish@data‑lab]─[~/projects/insights]
-└──╼ $ whoami
-Data Analyst • Software Developer • Researcher  |  MS Data Science candidate
+┌─[sathish@data-lab]─[~/projects/insights]
+└──╼ $ whoami
+Data Analyst • Software Developer • Researcher | MS Data Science candidate
 </pre>
 
-### Summary
+### TL;DR
 
-With over **three years** of professional experience, I’ve built a track record of blending data analytics and software engineering to deliver measurable impact. At **Mphasis** I optimized a JavaScript user interface, reducing load times by 15 % and boosting user engagement by 20 %【66820626617735†L44-L47】. By conducting API assessments and streamlining key management I cut data access time by **78 %**, accelerated analysis by **40 %** and reduced support issues【66820626617735†L48-L54】. As a data scientist intern at **HappyMonk**, my AI‑powered *Chokidr* app decreased home invasions by **75 %** and increased customer satisfaction by **15 %**【66820626617735†L90-L99】. I’m passionate about turning raw data into actionable insights and building intelligent systems that make a difference.
+- 3+ years blending **analytics + engineering** to deliver measurable outcomes  
+- Highlights: **-15% load time / +20% engagement** (UI), **-78% access time** (API keys), **-83% resolution time** (support), **-75% incidents** (AI security)  
+- Mission: **Craft responsible AI + analytics that improve security, efficiency, and growth**
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/sathishlella">
+    <img src="https://img.shields.io/badge/LinkedIn-Sathish%20Lella-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:lellasathish490@gmail.com">
+    <img src="https://img.shields.io/badge/Email-lellasathish490%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://scholar.google.com/citations?user=4xwc2BgAAAAJ&hl">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <!-- soft wave -->
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:6A5ACD,100:00BFFF&height=120&section=header&text=&fontSize=0&animation=blink&reversal=true" width="100%" alt="wave"/>
+</p>
+
+## 📌 Signature Snapshot (Terminal-style)
 
 <pre>
-┌─[sathish@data‑lab]─[~/achievements]
-└──╼ $ ls -la
-drwxr-xr-x  3 years experience delivering data‑driven solutions
-drwxr-xr-x  20 % engagement uplift via UI optimisation at Mphasis
-drwxr-xr-x  40 % faster trend identification using MongoDB queries
--rw-r--r--  78 % reduction in data access time through API key management
--rw-r--r--  75 % drop in home invasions using AI‑powered security
--rw-r--r--  83 % decrease in resolution time as trainee at Tech Mahindra
+┌─[sathish@data-lab]─[~/achievements]
+└──╼ $ ls -la
+drwxr-xr-x  3+ years   experience delivering data-driven solutions
+-rw-r--r--  +20%       engagement via UI optimisation (Mphasis)
+-rw-r--r--  -15%       page load time (Mphasis)
+-rw-r--r--  -78%       data access time via API key streamlining
+-rw-r--r--  -83%       support resolution time (Tech Mahindra)
+-rw-r--r--  -75%       home invasions w/ AI security (HappyMonk Chokidr)
 </pre>
 
-<pre>
-┌─[sathish@data‑lab]─[~/current‑mission]
-└──╼ $ cat vision.txt
-Building responsible AI and analytics solutions that transform data into security, efficiency and growth
-</pre>
+## 🧭 Vision
 
-### Connect
-
-I enjoy collaborating on open‑source projects, data visualisation and applied machine learning. Feel free to connect:
-
-• **LinkedIn:** [www.linkedin.com/in/sathishlella](https://www.linkedin.com/in/sathishlella)  
-• **E‑mail:** lellasathish490@gmail.com  
-• **Google Scholar:** [scholar.google.com/citations?user=4xwc2BgAAAAJ&hl](https://scholar.google.com/citations?user=4xwc2BgAAAAJ&hl)  
-
-## 📌 Additional Projects
-
-### 📝 **AI Resume & Cover Letter Generator**
+> Building **responsible AI & analytics** that convert raw data into **safer systems**, **faster decisions**, and **real business value**.
 
 <p align="center">
-  <img src="resume_cv.png" alt="AI resume generator dashboard" width="60%" />
+  <!-- gradient neon bar -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=6&section=header" width="100%" alt="separator"/>
 </p>
 
-**Category:** NLP  \  
-**Skills Highlighted:** Prompt engineering, LLM text generation  \  
-**Deployment:** Streamlit Cloud  \  
-**Summary:** Built a web application that crafts tailored resumes and cover letters using large language models and thoughtful prompt engineering. Users provide job descriptions and personal details; the AI then generates polished documents to save time and enhance job applications.
-
-### 📄 **Gen AI PDF Q&A Chatbot**
+## 🧰 Triple-Stack (Data • Software • Research)
 
 <p align="center">
-  <img src="PDFChatbot.png" alt="PDF Q&A chatbot dashboard" width="60%" />
+  <img src="https://skillicons.dev/icons?i=python,sql,postgresql,js,nodejs,react,mongodb,tableau,powerbi,git,linux,regex&perline=11" alt="skills" />
 </p>
-
-**Category:** RAG / LangChain  \  
-**Skills Highlighted:** Embeddings, vector database, retrieval  \  
-**Deployment:** Hugging Face Spaces  \  
-**Summary:** A conversational agent that answers questions about uploaded PDF documents. It leverages retrieval‑augmented generation (RAG) and a vector database to embed and search document fragments, returning accurate, context‑aware answers through a friendly chat interface.
-
-### 📊 **AI Review Sentiment Dashboard**
-
-<p align="center">
-  <img src="dashboard.png" alt="Sentiment analysis dashboard" width="60%" />
-</p>
-
-**Category:** Data + AI  \  
-**Skills Highlighted:** NLP analysis, data visualization  \  
-**Deployment:** Streamlit Cloud  \  
-**Summary:** An interactive dashboard that analyses customer reviews, performs sentiment classification and visualises trends. It combines text analytics with rich charts and dashboards to uncover insights that drive product and service improvements.
-
----
-
-## 🔧 Triple Expertise
 
 <details>
-<summary>Click to expand</summary>
+<summary><b>Show me the code-style persona</b> (TypeScript)</summary>
 
 ```typescript
-class TripleSpecialist implements Innovator {
-  private domains = {
-    data: ["Python", "SQL", "Machine Learning", "Tableau", "Power BI"],
-    software: ["JavaScript", "Node.js", "React", "MongoDB"],
-    research: ["Computer Vision", "NLP", "Image Segmentation", "Predictive Modeling"],
-    leadership: ["Cross‑functional Collaboration", "Teaching", "Project Management"],
-  };
-
-  public createImpact(): Innovation {
-    return this.domains
-      .data.map(skill => applyTo(realWorldProblems))
-      .concat(this.domains.software)
-      .concat(this.domains.research)
-      .reduce((acc, solution) => acc.merge(solution))
-      .optimize()
-      .scale();
-  }
-
-  get mission(): string {
-    return "Solving complex problems with data‑driven software and AI";
-  }
+class TripleSpecialist {
+  private domains = {
+    data: ["Python","SQL","ML","Tableau","Power BI"],
+    software: ["JavaScript","Node.js","React","MongoDB"],
+    research: ["CV","NLP","Segmentation","Predictive Modeling"],
+    leadership: ["Collaboration","Teaching","PM"]
+  };
+  mission = "Solve complex problems with data-driven software and AI";
+  createImpact() { return "Blend data × software × research → ship value"; }
 }
-```
-
-</details>
-
-## 📈 Impact Metrics
-
-```python
-impact = {
-    "ui_improvement": {"engagement": "+20%", "load_time": "-15%"},
-    "analysis_process": {"speed_up": "40%"},
-    "api_management": {"access_time": "-78%"},
-    "security_app": {"home_invasions": "-75%", "customer_satisfaction": "+15%"},
-    "support_efficiency": {"resolution_time": "-83%"}
-}
-
-for k, v in impact.items():
-    print(f"{k.title().replace('_', ' ')}: {', '.join([f'{metric} {value}' for metric, value in v.items()])}")
-```
-
----
-
-## 💻 Development Activity
-
-These widgets reflect my current GitHub contribution metrics. Replace `sathishlella` with your GitHub username when using them in your own profile.
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=sathishlella&show_icons=true&theme=github_dark" alt="GitHub stats" />
-  </a>
-  <br/>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sathishlella&theme=onedark&no-frame=true&column=6&margin-w=5&margin-h=5" alt="Trophies" />
-  </a>
-</p>
-
----
-
-## 🧠 Technology Mastery
-
-Below are some of the key tools and frameworks I use. The icons are served via [skillicons.dev](https://skillicons.dev) – you can swap or expand them according to your stack.
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sql,postgresql,js,nodejs,react,mongodb,tableau,powerbi,git" alt="Skills" />
-</p>
-
----
-
-## 📜 Experience Timeline
-
-### 🎓 Academic Graduate Assistant — *Lewis University* (Jan 2024 – May 2024)
-
-• **Location:** Romeoville, Illinois, USA【66820626617735†L27-L37】  
-• Graded assignments for introductory programming and Big Data courses, ensuring rigorous assessment of core concepts【66820626617735†L31-L34】.  
-• Assisted professors with advanced data science research, exploring cutting‑edge techniques and methodologies【66820626617735†L35-L38】.
-
-### 💻 Associate Software Engineer — *Mphasis Ltd.* (Aug 2021 – Dec 2022)
-
-• **Location:** Bangalore, India【66820626617735†L41-L44】  
-• Optimised JavaScript UI, reducing load times by 15 % and elevating user engagement by 20 %【66820626617735†L44-L47】.  
-• Accelerated data analysis by 40 % through efficient MongoDB querying【66820626617735†L48-L50】.  
-• Streamlined API key management, cutting data access time by 78 % and improving system integration【66820626617735†L52-L54】.
-
-### 🛠 Trainee Support Intern — *Tech Mahindra* (Mar 2021 – Aug 2021)
-
-• **Location:** Hyderabad, India【66820626617735†L55-L58】  
-• Worked on data processing and database management, meeting deadlines and exceeding quality targets【66820626617735†L60-L65】.  
-• Contributed to an 83 % decrease in average resolution time and strengthened customer loyalty【66820626617735†L60-L69】.
-
-### 📊 Data Analyst — *Youth Empowerment Foundation* (Oct 2020 – Feb 2021)
-
-• **Location:** Remote, India【66820626617735†L71-L76】  
-• Collaborated with cross‑functional teams to define data requirements and deliver comprehensive analytics solutions【66820626617735†L75-L79】.  
-• Ensured completeness of 78 datasets using Python, improving data quality and reliability【66820626617735†L81-L83】.  
-• Created interactive visualisations with Matplotlib and Excel, leading to a 7 % increase in performance metric accuracy【66820626617735†L84-L86】.
-
-### 🧠 Data Scientist Intern — *HappyMonk PVT Ltd.* (Jun 2020 – Sep 2020)
-
-• **Location:** Bangalore, India【66820626617735†L87-L90】  
-• Led development of the AI‑powered **Chokidr** app, achieving a 75 % drop in home invasions【66820626617735†L90-L94】.  
-• Utilised Tableau and Power BI to analyse customer input, uncover security trends and boost satisfaction by 15 %【66820626617735†L95-L99】.
-
----
-
-## 🚀 Signature Projects Portfolio
-
-### 🧠 **AI Mimicking Project**
-
-<p align="center">
-  <img src="AIMimickingProject.png" alt="AI Mimicking illustration" width="60%" />
-</p>
-
-**Focus:** language translation, sentiment analysis, mathematics, economics and interactive conversations【66820626617735†L116-L119】.  
-**Highlights:** built seamless Spanish‑to‑English translation to break language barriers and enhance cross‑cultural communication【66820626617735†L121-L123】.  
-**Tech:** Python, NLP libraries, deep learning, data pipelines.
-
-### 📊 **Dynamic Sales Dashboard**
-
-<p align="center">
-  <img src="DynamicSalesDashboard.png" alt="Sales dashboard illustration" width="60%" />
-</p>
-
-Developed and maintained a sales dashboard to drive data‑informed decisions【66820626617735†L126-L130】.  
-**Outcomes:** pricing techniques boosted sales by **15 %** and efficient inventory management cut surplus inventory by **20 %**【66820626617735†L131-L132】.  
-**Tools:** Power BI, SQL, Python, data visualisation libraries.
-
-### 🩺 **Dr.ML**
-
-<p align="center">
-  <img src="drml.png" alt="Health analytics illustration" width="60%" />
-</p>
-
-Ignited personal growth by developing an advanced AI web application leveraging deep learning models【66820626617735†L133-L144】.  
-**Features:** predictive analytics system accurately forecasts health conditions such as diabetes, heart disease and skin cancer【66820626617735†L138-L140】.  
-**Tech:** TensorFlow/Keras, Flask, frontend framework, deployed on cloud.
-
-### 🚗 **Automatic Number Plate Recognition & Tracking**
-
-<p align="center">
-  <img src="{{file:file-HREeWGi2GzqUYGDQKYK4SF}}" alt="Number plate recognition illustration" width="60%" />
-</p>
-
-Spearheaded development of an automated system to identify and track license plates【66820626617735†L145-L154】.  
-**Approach:** leveraged OCR technology to extract license plate information from entrance cameras, designed system architecture and ensured seamless integration with existing infrastructure【66820626617735†L145-L157】.  
-**Impact:** improved data extraction accuracy and speed.
-
----
-
-## 🎓 Research & Publications
-
-• **Advanced Image Segmentation Analysis:** comparative study of CNN, Segment Anything and U‑Net techniques; evaluated performance across diverse images and optimised deep learning strategies (in progress)【66820626617735†L105-L113】.  
-• **Real‑Time Monitoring & Predictive Maintenance:** co‑author of a chapter on predictive maintenance in industrial systems (Wiley online library)【66820626617735†L164-L166】.  
-• **Analysis of Received Signal Strength:** explored user position locating using machine learning methods (Springer)【66820626617735†L167-L168】.
-
----
-
-## 🎓 Academic Excellence
-
-| Institution | Degree & Major | Location | Dates |
-|---|---|---|---|
-| **Lewis University** | Master of Science in Data Science, GPA 3.5/4.0【66820626617735†L13-L19】 | Romeoville, IL, USA | Mar 2023 – Dec 2024 |
-| **Aditya University** | B.Tech in Electronics & Communication Engineering, GPA 6.91/10【66820626617735†L20-L24】 | Surampalem, India | Jul 2017 – Apr 2021 |
-
----
-
-## 🛠 Elite Technology Arsenal
-
-### 📊 Data Science & Analytics
-
-• Statistical analysis & modelling  
-• Experimental design & A/B testing  
-• Business intelligence & visualisation  
-• MLOps & model deployment
-
-### 💻 Software Engineering
-
-• Distributed systems & cloud‑native solutions  
-• API design & development  
-• Database management & ETL pipelines  
-• DevOps & containerisation
-
-### 🤖 AI & Machine Learning
-
-• Computer vision & image segmentation  
-• Natural language processing & generation  
-• Deep learning architectures  
-• Predictive analytics & recommender systems
-
----
-
-## 🌟 Let’s build the future together
-
-> “The future belongs to those who believe in the beauty of their code.”  
-> — **Data Analyst • Software Developer • Researcher** —
-
-I’m always excited to collaborate on challenging projects and research. If my profile resonates with your work, feel free to reach out – let’s innovate together!
