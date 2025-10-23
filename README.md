@@ -54,7 +54,7 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 <!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
 <!-- Data / AI (skillicons-only to avoid gaps) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,streamlit,pytorch&perline=12" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,pytorch&perline=12" />
 </p>
 
 <!-- Libraries not on skillicons → badges (no gaps) -->
