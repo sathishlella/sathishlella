@@ -51,18 +51,7 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=12" />
 </p>
 
-<!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
-<!-- Data / AI (skillicons-only to avoid gaps) -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,pytorch&perline=12" />
-</p>
 
-<!-- Libraries not on skillicons → badges (no gaps) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
-</p>
 
 
 <!-- Databases / Tools -->
@@ -74,6 +63,13 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=12" />
 </p>
+<!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
+<!-- Data / AI (skillicons-only to avoid gaps) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,pytorch&perline=12" />
+</p>
+
+<!-- Libraries not on skillicons → badges (no gaps) -->
 
 <!-- BI & plotting (not in skillicons → use badges so there are no gaps) -->
 <p align="center">
@@ -82,7 +78,11 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" />
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+</p>
 
 
 ---
