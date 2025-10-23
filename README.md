@@ -3,20 +3,34 @@
 <!-- Creative developer showcase README with glitch banner + typing effect.
      All assets stored locally in /assets for reliable mobile rendering. -->
 
+<!-- Core + Frontend -->
 <p align="center">
-  <picture>
-    <source type="image/svg+xml" srcset="https://svg-banners.vercel.app/api?type=glitch&text1=Sathish%20Lella%20%F0%9F%9A%80&text2=Data%20%2B%20AI%20%2B%20Software&width=1200&height=260" />
-    <img src="assets/banner-fallback.png" alt="Glitch banner" width="100%">
-  </picture>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=12" />
 </p>
 
+<!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&center=true&vCenter=true&width=880&lines=Data+Analyst+%E2%80%A2+Software+Developer+%E2%80%A2+Researcher;MS+Data+Science+%7C+Building+useful+AI;Turning+data+into+decisions+%26+products" alt="typing headline"/>
+  <img src="https://skillicons.dev/icons?i=numpy,pandas,scikitlearn,tensorflow,keras,opencv,fastapi,flask,django,streamlit&perline=12" />
 </p>
 
+<!-- Databases / Tools -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=6&section=header&reversal=true" width="100%" alt="separator"/>
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,mongodb,redis,graphql,postman,git,github,gitlab,vscode&perline=12" />
 </p>
+
+<!-- DevOps / Cloud -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=12" />
+</p>
+
+<!-- BI & plotting (not in skillicons → use badges so there are no gaps) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" />
+</p>
+
 
 <pre>
 ┌─[sathish@data-lab]─[~/projects/insights]
