@@ -4,11 +4,13 @@
      All assets stored locally in /assets for reliable mobile rendering. -->
 
 <p align="center">
+  <!-- Animated high-motion hero with PNG fallback -->
   <picture>
-    <source type="image/svg+xml" srcset="https://svg-banners.vercel.app/api?type=glitch&text1=Sathish%20Lella%20%F0%9F%9A%80&text2=Data%20%2B%20AI%20%2B%20Software&width=1200&height=260" />
-    <img src="assets/banner-fallback.png" alt="Glitch banner" width="100%">
+    <source srcset="assets/hero-motion.gif" type="image/gif" />
+    <img src="assets/hero-still.png" alt="Sathish Lella — Data · AI · Software" width="100%">
   </picture>
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&center=true&vCenter=true&width=880&lines=Data+Analyst+%E2%80%A2+Software+Developer+%E2%80%A2+Researcher;MS+Data+Science+%7C+Building+useful+AI;Turning+data+into+decisions+%26+products" alt="typing headline"/>
