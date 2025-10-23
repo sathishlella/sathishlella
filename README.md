@@ -100,6 +100,7 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <img src="assets/dashboard.png" alt="AI resume generator" width="72%" style="border-radius:12px"/>
   <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
 </p>
+
 **Stack:** Python • Streamlit • LLMs  
 **Value:** Tailors resumes & cover letters quickly with consistent professional tone.
 
