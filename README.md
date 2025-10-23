@@ -46,9 +46,32 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 </p>
 
 ## 🧰 Triple Stack (Data • Software • Research)
+<!-- Core languages & frontend -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sql,postgresql,js,nodejs,react,mongodb,tableau,powerbi,git,linux&perline=11" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=11" alt="Core skills" />
 </p>
+
+<!-- Data/AI stack -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=numpy,pandas,sklearn,tensorflow,pytorch,opencv,matplotlib,seaborn,fastapi,flask,django&perline=11" alt="Data & AI" />
+</p>
+
+<!-- Databases, APIs, tooling -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,mongodb,redis,graphql,postman,git,github,gitlab,vscode&perline=11" alt="DBs & Tooling" />
+</p>
+
+<!-- DevOps / Cloud -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=11" alt="DevOps & Cloud" />
+</p>
+
+<!-- BI tools not on skillicons → use badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" alt="Power BI" />
+</p>
+
 
 ---
 
@@ -59,7 +82,10 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <img src="assets/resume_cv.png" alt="AI resume generator" width="72%" style="border-radius:12px"/>
   <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
 </p>
-
+<p align="center">
+  <img src="assets/dashboard.png" alt="AI resume generator" width="72%" style="border-radius:12px"/>
+  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
+</p>
 **Stack:** Python • Streamlit • LLMs  
 **Value:** Tailors resumes & cover letters quickly with consistent professional tone.
 
@@ -78,7 +104,7 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 
 ### 📊 AI Review Sentiment Dashboard
 <p align="center">
-  <img src="assets/dashboard.png" alt="Sentiment dashboard" width="72%" style="border-radius:12px"/>
+  <img src="assets/GenAI_pdf_reader.png" alt="Sentiment dashboard" width="72%" style="border-radius:12px"/>
   <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
 </p>
 
