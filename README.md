@@ -166,8 +166,9 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishlella&layout=compact&theme=radical&hide_border=true" height="160" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sathishlella&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=sathishlella&theme=radical&hide_border=true" />
 </p>
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=sathishlella&theme=dracula&no-frame=true&margin-w=12&row=1" />
 </p>
