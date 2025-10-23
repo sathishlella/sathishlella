@@ -52,9 +52,18 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
 </p>
 
 <!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
+<!-- Data / AI (skillicons-only to avoid gaps) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=numpy,pandas,scikitlearn,tensorflow,keras,opencv,fastapi,flask,django,streamlit&perline=12" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,streamlit,pytorch&perline=12" />
 </p>
+
+<!-- Libraries not on skillicons → badges (no gaps) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+</p>
+
 
 <!-- Databases / Tools -->
 <p align="center">
