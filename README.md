@@ -41,6 +41,9 @@ Data Analyst • Software Developer • Researcher | MS Data Science candidate
   <a href="resume/Sathish_lella_resume.pdf">
     <img src="https://img.shields.io/badge/Resume-PDF-6f42c1?style=for-the-badge&logo=readthedocs&logoColor=white" />
   </a>
+   <a>  
+     <img src="https://komarev.com/ghpvc/?username=sathishlella&style=for-the-badge" alt="profile views"/>
+   </a>
 </p>
 
 <p align="center">
