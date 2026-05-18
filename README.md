@@ -140,10 +140,10 @@
 
 <p align="center">
   <a href="https://github.com/sathishlella">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=sathishlella&show_icons=true&hide_border=true&bg_color=0A0A0F&title_color=FF006E&icon_color=00F0FF&text_color=FAFAFA&include_all_commits=true&count_private=true"/>
+    <img height="195" src="./assets/stats.svg" alt="GitHub stats — 695 contributions, 56 repos, 45 stars, top language TypeScript"/>
   </a>
   <a href="https://github.com/sathishlella">
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=sathishlella&hide_border=true&background=0A0A0F&stroke=0A0A0F&ring=FF006E&fire=FFD60A&currStreakNum=FAFAFA&currStreakLabel=00F0FF&sideNums=FAFAFA&sideLabels=FAFAFA&dates=FAFAFA"/>
+    <img height="195" src="https://github-readme-streak-stats.herokuapp.com/?user=sathishlella&hide_border=true&background=0A0A0F&stroke=0A0A0F&ring=FF006E&fire=FFD60A&currStreakNum=FAFAFA&currStreakLabel=00F0FF&sideNums=FAFAFA&sideLabels=FAFAFA&dates=FAFAFA"/>
   </a>
 </p>
 
