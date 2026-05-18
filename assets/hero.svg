@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" fill="none" role="img" aria-label="Sathish Lella — AI Engineer × Multi-Agent Systems × 100 Days, 100 Agents">
+  <defs>
+    <radialGradient id="m1" cx="18%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m2" cx="82%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m3" cx="60%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#FFD60A" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#FFD60A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m4" cx="40%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.035" fill="none" stroke-width="0.7"/>
+    </pattern>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF006E"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF006E" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="440" fill="#08080C"/>
+  <rect width="1280" height="440" fill="url(#m1)">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1280" height="440" fill="url(#m2)">
+    <animate attributeName="opacity" values="1;0.65;1" dur="11s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1280" height="440" fill="url(#m3)">
+    <animate attributeName="opacity" values="0.4;0.95;0.4" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1280" height="440" fill="url(#m4)">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="13s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1280" height="440" fill="url(#grid)"/>
+  <rect width="1280" height="440" filter="url(#grain)" opacity="0.5"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FAFAFA">
+    <text x="80" y="185" font-size="98" font-weight="700" letter-spacing="-3" opacity="0">
+      SATHISH
+      <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.15s" fill="freeze"/>
+      <animate attributeName="y" from="200" to="185" dur="0.9s" begin="0.15s" fill="freeze"/>
+    </text>
+    <text x="80" y="278" font-size="98" font-weight="300" font-style="italic" letter-spacing="-3" opacity="0">
+      Lella<tspan fill="#FF006E">.</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.45s" fill="freeze"/>
+      <animate attributeName="y" from="293" to="278" dur="0.9s" begin="0.45s" fill="freeze"/>
+    </text>
+  </g>
+
+  <line x1="80" y1="300" x2="80" y2="300" stroke="url(#lineGrad)" stroke-width="3">
+    <animate attributeName="x2" from="80" to="430" dur="1.4s" begin="1.0s" fill="freeze"/>
+  </line>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.5s" fill="freeze"/>
+    <text x="80" y="338" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#FF006E" letter-spacing="4" font-weight="600">
+      AI ENGINEER  ×  MULTI-AGENT SYSTEMS  ×  100 DAYS, 100 AGENTS
+    </text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="0.88" dur="0.8s" begin="1.85s" fill="freeze"/>
+    <text x="80" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#FAFAFA" font-style="italic">
+      Shipping production AI agents — not demos. Not wrappers.
+    </text>
+    <rect x="565" y="358" width="3" height="20" fill="#FF006E">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="0.7" dur="0.8s" begin="2.15s" fill="freeze"/>
+    <text x="80" y="410" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#FAFAFA" letter-spacing="1.2">
+      <tspan fill="#FF006E">●</tspan>  Founding Engineer · F1 Dream Jobs       <tspan fill="#00F0FF">▲</tspan>  Open to Singapore EP       <tspan fill="#FFD60A">◆</tspan>  AWS ML Specialty in progress
+    </text>
+  </g>
+
+  <g transform="translate(1030, 220)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1.8s" begin="0.7s" fill="freeze"/>
+
+    <circle r="170" fill="none" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <circle r="130" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <circle r="90" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle r="55" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+      <g transform="translate(170,0)">
+        <circle r="6" fill="#FF006E"/>
+        <circle r="14" fill="#FF006E" fill-opacity="0.15">
+          <animate attributeName="r" values="10;18;10" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="14" y="4" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">GitPulse</text>
+      </g>
+      <g transform="rotate(60) translate(170,0) rotate(-60)">
+        <circle r="6" fill="#00F0FF"/>
+        <text x="-46" y="-10" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">SelfHeal</text>
+      </g>
+      <g transform="rotate(120) translate(170,0) rotate(-120)">
+        <circle r="6" fill="#FFD60A"/>
+        <text x="-72" y="6" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">ContractScan</text>
+      </g>
+      <g transform="rotate(180) translate(170,0) rotate(-180)">
+        <circle r="6" fill="#FF006E"/>
+        <circle r="14" fill="#FF006E" fill-opacity="0.15">
+          <animate attributeName="r" values="10;18;10" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <text x="-70" y="4" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">FlowMap</text>
+      </g>
+      <g transform="rotate(240) translate(170,0) rotate(-240)">
+        <circle r="6" fill="#00F0FF"/>
+        <text x="-78" y="6" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">ScenarioMind</text>
+      </g>
+      <g transform="rotate(300) translate(170,0) rotate(-300)">
+        <circle r="6" fill="#FFD60A"/>
+        <text x="14" y="6" font-family="ui-monospace, monospace" font-size="9" fill="#FAFAFA" fill-opacity="0.7">SkillMap</text>
+      </g>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="40s" repeatCount="indefinite"/>
+      <circle cx="130" cy="0" r="3" fill="#FFFFFF" fill-opacity="0.6"/>
+      <circle cx="-130" cy="0" r="3" fill="#FFFFFF" fill-opacity="0.6"/>
+      <circle cx="0" cy="130" r="3" fill="#FFFFFF" fill-opacity="0.6"/>
+      <circle cx="0" cy="-130" r="3" fill="#FFFFFF" fill-opacity="0.6"/>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite"/>
+      <circle cx="90" cy="0" r="2.5" fill="#FF006E"/>
+      <circle cx="-90" cy="0" r="2.5" fill="#00F0FF"/>
+      <circle cx="63.6" cy="63.6" r="2" fill="#FAFAFA" fill-opacity="0.5"/>
+      <circle cx="-63.6" cy="-63.6" r="2" fill="#FAFAFA" fill-opacity="0.5"/>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+      <circle cx="55" cy="0" r="2" fill="#FFD60A"/>
+      <circle cx="-27.5" cy="47.6" r="2" fill="#FF006E"/>
+      <circle cx="-27.5" cy="-47.6" r="2" fill="#00F0FF"/>
+    </g>
+
+    <circle r="22" fill="#FAFAFA" fill-opacity="0.04"/>
+    <circle r="14" fill="#FAFAFA">
+      <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" fill="#08080C"/>
+    <circle r="3" fill="#FF006E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#FAFAFA" fill-opacity="0.35" letter-spacing="1.5">
+    <text x="80" y="58">// PROFILE_v2.6 — UPDATED 2026-05-18</text>
+    <text x="1200" y="58" text-anchor="end">REPO ∕ SATHISHLELLA</text>
+  </g>
+
+  <g stroke="#FAFAFA" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+    <path d="M24 24 L24 48 M24 24 L48 24"/>
+    <path d="M1256 24 L1256 48 M1256 24 L1232 24"/>
+    <path d="M24 416 L24 392 M24 416 L48 416"/>
+    <path d="M1256 416 L1256 392 M1256 416 L1232 416"/>
+  </g>
+
+  <rect x="0" y="78" width="1280" height="1" fill="url(#hairline)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <rect x="0" y="426" width="1280" height="1" fill="url(#hairline)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.0s" fill="freeze"/>
+  </rect>
+</svg>
