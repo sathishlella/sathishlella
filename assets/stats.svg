@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" fill="none" role="img" aria-label="GitHub stats — Sathish Lella">
+  <defs>
+    <radialGradient id="s_bg1" cx="0%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s_bg2" cx="100%" cy="100%" r="90%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s_bg3" cx="60%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="s_rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#FF006E" stop-opacity="1"/>
+      <stop offset="78%" stop-color="#00F0FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="s_metricGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAFA"/>
+      <stop offset="100%" stop-color="#FAFAFA" stop-opacity="0.65"/>
+    </linearGradient>
+    <pattern id="s_grid" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" stroke="#FFFFFF" stroke-opacity="0.035" fill="none" stroke-width="0.6"/>
+    </pattern>
+    <filter id="s_grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+  </defs>
+
+  <rect width="495" height="195" rx="8" fill="#08080C"/>
+  <rect width="495" height="195" rx="8" fill="url(#s_bg1)"/>
+  <rect width="495" height="195" rx="8" fill="url(#s_bg2)"/>
+  <rect width="495" height="195" rx="8" fill="url(#s_bg3)"/>
+  <rect width="495" height="195" rx="8" fill="url(#s_grid)"/>
+  <rect width="495" height="195" rx="8" filter="url(#s_grain)"/>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="none" stroke="#FAFAFA" stroke-opacity="0.08"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="22" y="28" font-size="11" fill="#FF006E" letter-spacing="3" font-weight="700">// GITHUB STATS  ·  SATHISHLELLA</text>
+    <text x="473" y="28" text-anchor="end" font-size="9.5" fill="#FAFAFA" fill-opacity="0.45" letter-spacing="1.5">SINCE DEC 2018</text>
+  </g>
+
+  <rect x="0" y="38" width="495" height="1" fill="url(#s_rule)"/>
+
+  <g>
+    <text x="22" y="65" font-size="10" fill="#FAFAFA" fill-opacity="0.55" letter-spacing="2" font-family="ui-monospace, monospace">CONTRIBUTIONS · LAST 12 MO</text>
+    <text x="22" y="100" font-size="42" font-weight="700" fill="url(#s_metricGrad)" font-family="Georgia, 'Times New Roman', serif">695</text>
+    <g transform="translate(120, 92)">
+      <text x="0" y="0" font-size="11" fill="#FF006E" font-family="ui-monospace, monospace" font-weight="600">↑ 649 commits</text>
+      <text x="0" y="14" font-size="10" fill="#FAFAFA" fill-opacity="0.55" font-family="ui-monospace, monospace">across 56 repos</text>
+    </g>
+  </g>
+
+  <g transform="translate(22, 125)">
+    <text x="0" y="0" font-size="10" fill="#FAFAFA" fill-opacity="0.55" letter-spacing="2" font-family="ui-monospace, monospace">REPOS</text>
+    <text x="0" y="26" font-size="22" font-weight="700" fill="#FAFAFA" font-family="Georgia, serif">56</text>
+    <text x="42" y="26" font-size="10" fill="#FAFAFA" fill-opacity="0.45" font-family="ui-monospace, monospace">public</text>
+  </g>
+  <g transform="translate(115, 125)">
+    <text x="0" y="0" font-size="10" fill="#FAFAFA" fill-opacity="0.55" letter-spacing="2" font-family="ui-monospace, monospace">STARS</text>
+    <text x="0" y="26" font-size="22" font-weight="700" fill="#FFD60A" font-family="Georgia, serif">45</text>
+    <text x="32" y="26" font-size="10" fill="#FAFAFA" fill-opacity="0.45" font-family="ui-monospace, monospace">earned</text>
+  </g>
+
+  <text x="22" y="178" font-size="9.5" fill="#FAFAFA" fill-opacity="0.4" letter-spacing="1" font-family="ui-monospace, monospace">23 followers · 46 new repos last year · 695-day streak active</text>
+
+  <g transform="translate(255, 55)">
+    <text x="0" y="0" font-size="10" fill="#FAFAFA" fill-opacity="0.55" letter-spacing="2" font-family="ui-monospace, monospace">TOP LANGUAGES</text>
+
+    <rect x="0" y="11" width="218" height="6" fill="#FAFAFA" fill-opacity="0.06" rx="3"/>
+    <rect x="0" y="11" width="0" height="6" fill="#3178c6" rx="3">
+      <animate attributeName="width" from="0" to="123" dur="1.4s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <rect x="123" y="11" width="0" height="6" fill="#e34c26">
+      <animate attributeName="width" from="0" to="43" dur="1.0s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <rect x="166" y="11" width="0" height="6" fill="#f1e05a">
+      <animate attributeName="width" from="0" to="33" dur="0.9s" begin="0.85s" fill="freeze"/>
+    </rect>
+    <rect x="199" y="11" width="0" height="6" fill="#3572A5">
+      <animate attributeName="width" from="0" to="10" dur="0.7s" begin="1.05s" fill="freeze"/>
+    </rect>
+    <rect x="209" y="11" width="0" height="6" fill="#663399">
+      <animate attributeName="width" from="0" to="7" dur="0.7s" begin="1.2s" fill="freeze"/>
+    </rect>
+    <rect x="216" y="11" width="0" height="6" fill="#336790" rx="3">
+      <animate attributeName="width" from="0" to="2" dur="0.5s" begin="1.35s" fill="freeze"/>
+    </rect>
+
+    <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10">
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze"/>
+        <circle cx="5" cy="36" r="3.5" fill="#3178c6"/>
+        <text x="14" y="39" fill="#FAFAFA">TypeScript</text>
+        <text x="100" y="39" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">56.5%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze"/>
+        <circle cx="5" cy="56" r="3.5" fill="#e34c26"/>
+        <text x="14" y="59" fill="#FAFAFA">HTML</text>
+        <text x="100" y="59" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">19.8%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
+        <circle cx="5" cy="76" r="3.5" fill="#f1e05a"/>
+        <text x="14" y="79" fill="#FAFAFA">JavaScript</text>
+        <text x="100" y="79" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">15.2%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.15s" fill="freeze"/>
+        <circle cx="120" cy="36" r="3.5" fill="#3572A5"/>
+        <text x="129" y="39" fill="#FAFAFA">Python</text>
+        <text x="218" y="39" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">4.5%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.3s" fill="freeze"/>
+        <circle cx="120" cy="56" r="3.5" fill="#663399"/>
+        <text x="129" y="59" fill="#FAFAFA">CSS</text>
+        <text x="218" y="59" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">3.1%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.45s" fill="freeze"/>
+        <circle cx="120" cy="76" r="3.5" fill="#336790"/>
+        <text x="129" y="79" fill="#FAFAFA">PLpgSQL</text>
+        <text x="218" y="79" fill="#FAFAFA" fill-opacity="0.55" text-anchor="end">0.9%</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(475, 175)">
+    <circle r="3" fill="#FF006E">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-8" y="3" text-anchor="end" font-size="9" fill="#FAFAFA" fill-opacity="0.55" font-family="ui-monospace, monospace" letter-spacing="1">LIVE</text>
+  </g>
+
+  <g stroke="#FAFAFA" stroke-opacity="0.25" stroke-width="0.8" fill="none">
+    <path d="M8 8 L8 18 M8 8 L18 8"/>
+    <path d="M487 8 L487 18 M487 8 L477 8"/>
+    <path d="M8 187 L8 177 M8 187 L18 187"/>
+    <path d="M487 187 L487 177 M487 187 L477 187"/>
+  </g>
+</svg>
