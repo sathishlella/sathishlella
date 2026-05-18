@@ -1,186 +1,57 @@
-# ✨ Sathish Lella — Data‑Driven Innovator
+# Sathish Lella
 
-<!-- Creative developer showcase README with glitch banner + typing effect.
-     All assets stored locally in /assets for reliable mobile rendering. -->
+**AI Engineer • Multi-Agent Systems & RAG • Production AI Infrastructure**
 
-<p align="center">
-  <!-- Animated high-motion hero with PNG fallback -->
-  <picture>
-    <source srcset="assets/hero-motion.gif" type="image/gif" />
-    <img src="assets/hero-still.png" alt="Sathish Lella — Data · AI · Software" width="100%">
-  </picture>
-</p>
+Building production-grade AI agents that run real companies — not demos, not wrappers.
+Founding Engineer at F1 Dream Jobs. Published in CRC Press and Springer.
+McKinsey Fast Forward alum. Mentored 210+ AI students.
 
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&center=true&vCenter=true&width=880&lines=Data+Analyst+%E2%80%A2+Software+Developer+%E2%80%A2+Researcher;MS+Data+Science+%7C+Building+useful+AI;Turning+data+into+decisions+%26+products" alt="typing headline"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=6&section=header&reversal=true" width="100%" alt="separator"/>
-</p>
-
-<pre>
-┌─[sathish@data-lab]─[~/projects/insights]
-└──╼ $ whoami
-Data Analyst • Software Developer • Researcher | MS Data Science candidate
-</pre>
-
-### TL;DR
-- Hands-on projects that blend **analytics + engineering** to deliver outcomes  
-- Focus areas: UI performance, API efficiency, RAG chatbots, dashboards, and health AI  
-- Mission: **Responsible AI & analytics** → safer systems, faster decisions, real value
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/sathishlella">
-    <img src="https://img.shields.io/badge/LinkedIn-Sathish%20Lella-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:lellasathish490@gmail.com">
-    <img src="https://img.shields.io/badge/Email-lellasathish490%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="resume/Sathish_lella_resume.pdf">
-    <img src="https://img.shields.io/badge/Resume-PDF-6f42c1?style=for-the-badge&logo=readthedocs&logoColor=white" />
-  </a>
-   <a>  
-     <img src="https://komarev.com/ghpvc/?username=sathishlella&style=for-the-badge" alt="profile views"/>
-   </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:6A5ACD,100:00BFFF&height=120&section=header&text=&fontSize=0&animation=blink&reversal=true" width="100%" alt="wave"/>
-</p>
-
-## 🧰 Triple Stack (Data • Software • Research)
-<!-- Core + Frontend -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,tailwind,bootstrap,vite&perline=12" />
-</p>
-
-
-
-
-<!-- Databases / Tools -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,mongodb,redis,graphql,postman,git,github,gitlab,vscode&perline=12" />
-</p>
-
-<!-- DevOps / Cloud -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,vercel,netlify,cloudflare,linux,bash,nginx&perline=12" />
-</p>
-<!-- Data / AI (use scikitlearn; drop seaborn/matplotlib here) -->
-<!-- Data / AI (skillicons-only to avoid gaps) -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,opencv,fastapi,flask,django,pytorch&perline=12" />
-</p>
-
-<!-- Libraries not on skillicons → badges (no gaps) -->
-
-<!-- BI & plotting (not in skillicons → use badges so there are no gaps) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=000" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
-</p>
-
+📍 Selangor, Malaysia · 🇸🇬 Open to Singapore EP-sponsored & remote roles
+📧 sathishlellaa@gmail.com · 🔗 [LinkedIn](https://linkedin.com/in/sathishlella)
 
 ---
 
-## 🚀 Projects — Creative + Motion
+## 🚀 100 Days, 100 AI Agents — building in public
 
-### 📝 AI Resume & Cover Letter Generator (NLP)
-<p align="center">
-  <img src="assets/resume_cv.png" alt="AI resume generator" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
-<p align="center">
-  <img src="assets/dashboard.png" alt="AI resume generator" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
+One production-grade AI agent every day. Hero repo: [100-days-100-ai-agents](https://github.com/sathishlella/100-days-100-ai-agents)
 
-**Stack:** Python • Streamlit • LLMs  
-**Value:** Tailors resumes & cover letters quickly with consistent professional tone.
+| Agent | What it does | Live |
+|-------|--------------|------|
+| **[GitPulse AI](https://github.com/sathishlella/gitpulse-ai)** | 4-agent GitHub due-diligence swarm — investment-grade dossier in 30s | [gitpulse-ai.vercel.app](https://gitpulse-ai.vercel.app) |
+| **[SelfHeal](https://github.com/sathishlella/selfheal)** | Autonomous production code error detection — 200+ rule knowledge base, zero LLM in core engine | — |
+| **[ContractScan](https://github.com/sathishlella/ContractScan)** | Contract risk analysis — 80+ red flags, 60+ clause types, 3-second scoring | [contract-scan-gilt.vercel.app](https://contract-scan-gilt.vercel.app) |
+| **[FlowMap AI](https://github.com/sathishlella/FlowMap-AI)** | Autonomous process discovery — Chrome + VS Code extensions | — |
+| **[ScenarioMind](https://github.com/sathishlella/ScenarioMind)** | Multi-agent business simulation — Groq Llama 3.3 + Vercel Serverless | [scenario-mind.vercel.app](https://scenario-mind.vercel.app) |
+| **[SkillMap AI](https://github.com/sathishlella/SkillMap-AI)** | Personalized 30-day learning roadmap generator — 4-agent swarm | — |
 
 ---
 
-### 📄 GenAI PDF Q&A — RAG on LangChain
-<p align="center">
-  <img src="assets/PDFChatbot.png" alt="PDF Q&A" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
+## 🏢 Currently
 
-**Stack:** LangChain • FAISS • Embeddings  
-**Value:** Ask questions about your PDFs and get context-aware answers.
+**Founding Engineer · F1 Dream Jobs** (Feb 2026 – Present)
+Full-stack AI CRM from scratch: TypeScript + React + Node.js + PostgreSQL + GPT-4. Processes 200+ CVs/day. RAG pipeline with vector DB for semantic matching. 70%+ reduction in manual recruiter effort.
 
----
-
-### 📊 AI Review Sentiment Dashboard
-<p align="center">
-  <img src="assets/GenAI_pdf_reader.png" alt="Sentiment dashboard" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
-
-**Stack:** Python • Streamlit • NLP  
-**Value:** Visual insights into review sentiment for product decisions.
+**Previously: Founder · Velden Health** (Jun 2025 – Apr 2026, wound down)
+Built the technical infrastructure for a healthcare revenue recovery firm. Custom OS tracking 1,000+ insurance claims, predictive recovery scoring, A/R aging dashboards.
 
 ---
 
-### 🧠 AI Mimicking Project
-<p align="center">
-  <img src="assets/AIMimickingProject.png" alt="AI Mimicking" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/glitch-divider.gif" width="220" alt="glitch divider"/>
-</p>
+## 🎓 Education & Research
 
-**Focus:** translation, sentiment, math, econ, interactive conversations.
+- **Doctor of Business Administration** · Taylor's University (Apr 2026 – May 2029) · *Part-time, weekend-only*
+- **MS, Data Science** · Lewis University, Illinois (Mar 2023 – Dec 2024) · GPA 3.5
+- **B.Tech, Electronics & Communication Engineering** · Aditya University (2017 – 2021)
 
----
-
-### 🩺 Dr.ML — Health Analytics
-<p align="center">
-  <img src="assets/drml.png" alt="Dr.ML" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
-
-**Models:** diabetes • heart disease • skin cancer (DL + Flask).
+**Published:**
+- *Real-Time Monitoring and Predictive Maintenance* — Chapter 7, CRC Press / Wiley
+- *Analysis of Received Signal Strength Based on User Position Locating Using ML* — Springer
+- *Standardizing Denial Management in Behavioral Health* — Zenodo, 2026
+- *SynthERA-835: Open-Source Synthetic X12 835 EDI Generator* — IEEE JBHI (under review)
 
 ---
 
-### 📈 Dynamic Sales Dashboard (Power BI)
-<p align="center">
-  <img src="assets/DynamicSalesDashboard.png" alt="Sales dashboard" width="72%" style="border-radius:12px"/>
-  <br/><img src="assets/pulse.gif" width="180" alt="pulse"/>
-</p>
+## 🛠 Stack
 
-**Outcome:** decision-ready KPIs across roles, time, and segments.
+`Python` `TypeScript` `React` `Node.js` `PostgreSQL` `GPT-4 / Claude / Llama` `LangChain` `Vector DBs` `RAG` `Multi-Agent Systems` `Vercel` `Power BI`
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=6&section=footer&reversal=true" width="100%" alt="separator"/>
-</p>
-
-## 🏆 Activity & Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sathishlella&show_icons=true&theme=radical&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishlella&layout=compact&theme=radical&hide_border=true" height="160" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=sathishlella&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sathishlella&theme=dracula&no-frame=true&margin-w=12&row=1" />
-</p>
-
-## 🌟 Let’s Build the Future
-> “The future belongs to those who believe in the beauty of their code.”
-
-<p align="center">
-  <a href="mailto:lellasathish490@gmail.com">lellasathish490@gmail.com</a> •
-  <a href="https://www.linkedin.com/in/sathishlella">LinkedIn</a> •
-  <a href="https://scholar.google.com/citations?user=4xwc2BgAAAAJ&hl">Scholar</a>
-</p>
+In progress: **AWS Machine Learning Specialty** (exam late May 2026)
