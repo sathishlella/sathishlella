@@ -9,9 +9,9 @@
 
 <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16265a"/><stop offset="1" stop-color="#0a1330"/></linearGradient>
 <linearGradient id="amb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffdca8"/><stop offset=".55" stop-color="#ffb45e"/><stop offset="1" stop-color="#ff9a3d"/></linearGradient>
-<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".62"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-<clipPath id="pill"><rect x="4" y="4" width="232" height="52" rx="26"/></clipPath></defs>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="pill"><rect width="240" height="60" rx="30"/></clipPath></defs>
 <style>
 svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif}
 .o{transform-box:fill-box;transform-origin:center}
@@ -60,19 +60,13 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 @keyframes walkbob{0%{transform:translateY(0) rotate(-1.4deg)}100%{transform:translateY(-3px) rotate(1.4deg)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 
-@keyframes gl{0%{opacity:.1}100%{opacity:.42}}
-@keyframes gl2{0%{opacity:.6}100%{opacity:1}}
-.gl{animation:gl 3.8s ease-in-out infinite alternate}
-.gl2{animation:gl2 3.8s ease-in-out infinite alternate}
 @keyframes sw{0%,32%{transform:translateX(0)}72%,100%{transform:translateX(420px)}}
 .sw{animation:sw 6.4s ease-in-out infinite}
 </style>
 
-<rect x="4" y="4" width="232" height="52" rx="26" fill="none" stroke="#ffb45e" stroke-width="6" opacity=".26" class="gl" style="animation-delay:-3.2s"/>
-<rect x="4" y="4" width="232" height="52" rx="26" fill="url(#glass)"/>
-<rect x="4" y="4" width="232" height="26" rx="26" fill="url(#shine)" clip-path="url(#pill)"/>
-<rect x="4" y="4" width="232" height="52" rx="26" fill="none" stroke="#ffb45e" stroke-width="1.6" opacity=".9" class="gl2" style="animation-delay:-3.2s"/>
-<g transform="translate(69.2 30) scale(.47)"><g>
+<rect x=".75" y=".75" width="238.5" height="58.5" rx="29.25" fill="url(#glass)"/>
+<rect width="240" height="30" fill="url(#shine)" clip-path="url(#pill)"/>
+<g transform="translate(34 30) scale(.56)"><g>
 <circle r="51.2" fill="url(#lg)" class="o flick" style="animation-duration:3.0s;animation-delay:-1.9s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -82,6 +76,7 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-<text x="91.2" y="36" font-family="'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#f4efe4">Download CV</text>
+<text x="66" y="36.3" font-family="'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f4efe4" textLength="116" lengthAdjust="spacingAndGlyphs">Download CV</text>
 
+<rect x=".75" y=".75" width="238.5" height="58.5" rx="29.25" fill="none" stroke="#ffb45e" stroke-width="1.5"/>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 64" width="1280" height="64" role="img" aria-labelledby="t d">
-<title id="t">Divider of paper lanterns</title><desc id="d">A rope sagging across the page with nine small paper lanterns hanging from it and swaying, with a few fireflies.</desc>
+<title id="t">Divider of paper lanterns</title><desc id="d">A rope sagging across the page with seven small paper lanterns hanging from it and swaying, with three fireflies.</desc>
 <defs>
 <radialGradient id="lg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffb060" stop-opacity=".62"/><stop offset=".45" stop-color="#ff8a30" stop-opacity=".22"/><stop offset="1" stop-color="#ff8a30" stop-opacity="0"/></radialGradient>
 <radialGradient id="ffg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#c8ff6a" stop-opacity=".9"/><stop offset=".4" stop-color="#c8ff6a" stop-opacity=".25"/><stop offset="1" stop-color="#c8ff6a" stop-opacity="0"/></radialGradient>
@@ -57,10 +57,10 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 
 @keyframes dsw{0%{transform:rotate(-6deg)}100%{transform:rotate(6deg)}}
 .dsw{animation:dsw 4.6s ease-in-out infinite alternate}
-@keyframes dv0{0%{transform:translate(0,0)}20%{transform:translate(11.9px,-11.7px)}40%{transform:translate(-15.8px,-17.1px)}60%{transform:translate(1.1px,27.2px)}80%{transform:translate(29.3px,-29.5px)}100%{transform:translate(0,0)}}@keyframes dv1{0%{transform:translate(0,0)}20%{transform:translate(-25.8px,20.8px)}40%{transform:translate(-24.3px,-18.6px)}60%{transform:translate(25.5px,-20.6px)}80%{transform:translate(19.4px,-7.7px)}100%{transform:translate(0,0)}}@keyframes dv2{0%{transform:translate(0,0)}20%{transform:translate(35.6px,27.1px)}40%{transform:translate(27.9px,8.7px)}60%{transform:translate(-16.4px,24.4px)}80%{transform:translate(-26.7px,-6.3px)}100%{transform:translate(0,0)}}@keyframes dv3{0%{transform:translate(0,0)}20%{transform:translate(-40.3px,-29.3px)}40%{transform:translate(-26.8px,8.9px)}60%{transform:translate(-37.3px,4.5px)}80%{transform:translate(39.4px,11.7px)}100%{transform:translate(0,0)}}</style>
-<path d="M-10 8Q640 44 1290 8" fill="none" stroke="#8a6a44" stroke-width="2.4" stroke-linecap="round" opacity=".9"/><path d="M-10 8Q640 44 1290 8" fill="none" stroke="#e0c08e" stroke-width="1" stroke-dasharray="3 4" opacity=".75"/><g class="dsw" style="transform-box:view-box;transform-origin:80.3px 12.7px;animation-duration:5.8s;animation-delay:-5.7s">
-<path d="M80.3 12.7V19.5" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(80.3 31.5) scale(0.4)"><g>
+@keyframes dv0{0%{transform:translate(0,0)}20%{transform:translate(11.9px,-11.7px)}40%{transform:translate(-15.8px,-17.1px)}60%{transform:translate(1.1px,27.2px)}80%{transform:translate(29.3px,-29.5px)}100%{transform:translate(0,0)}}@keyframes dv1{0%{transform:translate(0,0)}20%{transform:translate(-25.8px,20.8px)}40%{transform:translate(-24.3px,-18.6px)}60%{transform:translate(25.5px,-20.6px)}80%{transform:translate(19.4px,-7.7px)}100%{transform:translate(0,0)}}@keyframes dv2{0%{transform:translate(0,0)}20%{transform:translate(35.6px,27.1px)}40%{transform:translate(27.9px,8.7px)}60%{transform:translate(-16.4px,24.4px)}80%{transform:translate(-26.7px,-6.3px)}100%{transform:translate(0,0)}}</style>
+<path d="M-10 8Q640 44 1290 8" fill="none" stroke="#8a6a44" stroke-width="2.4" stroke-linecap="round" opacity=".9"/><path d="M-10 8Q640 44 1290 8" fill="none" stroke="#e0c08e" stroke-width="1" stroke-dasharray="3 4" opacity=".75"/><g class="dsw" style="transform-box:view-box;transform-origin:99.4px 13.5px;animation-duration:5.8s;animation-delay:-5.7s">
+<path d="M99.4 13.5V20.4" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(99.4 32.9) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:3.8s;animation-delay:-0.7s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -70,9 +70,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:223.6px 18.6px;animation-duration:5.3s;animation-delay:-4.3s">
-<path d="M223.6 18.6V25.7" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(223.6 38.5) scale(0.5)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:282.4px 20.6px;animation-duration:5.3s;animation-delay:-4.3s">
+<path d="M282.4 20.6V27.7" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(282.4 41) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:4.2s;animation-delay:-1.1s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -82,9 +82,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:356.5px 22.6px;animation-duration:5.0s;animation-delay:-2.9s">
-<path d="M356.5 22.6V29.9" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(356.5 42.3) scale(0.5)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:454.1px 24.5px;animation-duration:5.0s;animation-delay:-2.9s">
+<path d="M454.1 24.5V31.8" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(454.1 44.8) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:4.6s;animation-delay:-1.5s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -94,9 +94,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:493.4px 25.1px;animation-duration:5.7s;animation-delay:-4.8s">
-<path d="M493.4 25.1V32.1" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(493.4 43.6) scale(0.4)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:630px 26px;animation-duration:5.7s;animation-delay:-4.8s">
+<path d="M630 26V33" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(630 45.1) scale(0.4)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:3.0s;animation-delay:-1.9s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -106,9 +106,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:639.3px 26px;animation-duration:4.3s;animation-delay:-2.6s">
-<path d="M639.3 26V31.3" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(639.3 43.1) scale(0.4)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:815.9px 24.7px;animation-duration:4.3s;animation-delay:-2.6s">
+<path d="M815.9 24.7V30" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(815.9 42.3) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:3.4s;animation-delay:-2.2s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -118,9 +118,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:772.8px 25.2px;animation-duration:4.6s;animation-delay:-4.5s">
-<path d="M772.8 25.2V33.8" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(772.8 45.5) scale(0.4)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:988.2px 20.8px;animation-duration:4.6s;animation-delay:-4.5s">
+<path d="M988.2 20.8V29.4" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(988.2 41.6) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:3.8s;animation-delay:-2.6s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -130,9 +130,9 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:924.7px 22.5px;animation-duration:4.6s;animation-delay:-4.3s">
-<path d="M924.7 22.5V28.2" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(924.7 40.5) scale(0.5)"><g>
+</g><g class="dsw" style="transform-box:view-box;transform-origin:1180.6px 13.5px;animation-duration:4.6s;animation-delay:-4.3s">
+<path d="M1180.6 13.5V19.2" stroke="#8a6a44" stroke-width="1.1"/>
+<g transform="translate(1180.6 32.1) scale(0.5)"><g>
 <circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:4.2s;animation-delay:-3.0s"/>
 
 <path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
@@ -142,29 +142,5 @@ svg{font-family:'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, 
 <ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
 <ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
 </g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:1060.5px 18.5px;animation-duration:6.2s;animation-delay:-5.9s">
-<path d="M1060.5 18.5V24.7" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(1060.5 36) scale(0.4)"><g>
-<circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:4.6s;animation-delay:-0.3s"/>
-
-<path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
-<path d="M-17 -8Q0 -2 17 -8M-19.5 4Q0 10 19.5 4M-16 -19Q0 -14 16 -19" fill="none" stroke="#7a3a12" stroke-opacity=".38" stroke-width="1"/>
-<path d="M0 -21V21M-8 -20Q-11 0-8 20M8 -20Q11 0 8 20" fill="none" stroke="#7a3a12" stroke-opacity=".22" stroke-width=".8"/>
-<rect x="-11" y="-27" width="22" height="7" rx="2" fill="#5a3a22"/>
-<ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
-<ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
-</g></g>
-</g><g class="dsw" style="transform-box:view-box;transform-origin:1189.9px 13.1px;animation-duration:4.7s;animation-delay:-4.0s">
-<path d="M1189.9 13.1V18.9" stroke="#8a6a44" stroke-width="1.1"/>
-<g transform="translate(1189.9 31.1) scale(0.5)"><g>
-<circle r="35.2" fill="url(#lg)" class="o flick" style="animation-duration:3.0s;animation-delay:-0.7s"/>
-
-<path d="M-15 -21Q-21 0-15 21L15 21Q21 0 15 -21Z" fill="url(#paper)"/>
-<path d="M-17 -8Q0 -2 17 -8M-19.5 4Q0 10 19.5 4M-16 -19Q0 -14 16 -19" fill="none" stroke="#7a3a12" stroke-opacity=".38" stroke-width="1"/>
-<path d="M0 -21V21M-8 -20Q-11 0-8 20M8 -20Q11 0 8 20" fill="none" stroke="#7a3a12" stroke-opacity=".22" stroke-width=".8"/>
-<rect x="-11" y="-27" width="22" height="7" rx="2" fill="#5a3a22"/>
-<ellipse cx="0" cy="23" rx="19" ry="4" fill="#5a3a22"/>
-<ellipse cy="2" rx="4.2" ry="9" fill="#fff8e0" opacity=".95" class="o flick" style="--o:.95;animation-duration:1.7s"/>
-</g></g>
-</g><g transform="translate(175.7 15) scale(0.8)"><g style="animation:dv0 17.6s ease-in-out infinite -14.7s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:4.0s;animation-delay:-3.7s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:2.6s;animation-delay:-2.3s"/></g></g><g transform="translate(816.9 55.4) scale(0.7)"><g style="animation:dv1 29.8s ease-in-out infinite -27.2s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:4.6s;animation-delay:-4.1s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:4.8s;animation-delay:-1.1s"/></g></g><g transform="translate(424.4 34.8) scale(0.7)"><g style="animation:dv2 28.2s ease-in-out infinite -21.9s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:2.4s;animation-delay:-2.9s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:4.2s;animation-delay:-3.8s"/></g></g><g transform="translate(482.7 24.9) scale(0.6)"><g style="animation:dv3 29.2s ease-in-out infinite -9.0s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:2.6s;animation-delay:-4.2s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:4.9s;animation-delay:-4.2s"/></g></g>
+</g><g transform="translate(232.7 15) scale(0.8)"><g style="animation:dv0 17.6s ease-in-out infinite -14.7s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:4.0s;animation-delay:-3.7s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:2.6s;animation-delay:-2.3s"/></g></g><g transform="translate(795.2 55.4) scale(0.8)"><g style="animation:dv1 29.8s ease-in-out infinite -27.2s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:4.6s;animation-delay:-4.1s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:4.8s;animation-delay:-1.1s"/></g></g><g transform="translate(450.9 34.8) scale(0.8)"><g style="animation:dv2 28.2s ease-in-out infinite -21.9s"><circle r="10" fill="url(#ffg)" class="blink" style="animation-duration:2.4s;animation-delay:-2.9s"/><circle r="1.7" fill="#eaffb8" class="blink" style="animation-duration:4.2s;animation-delay:-3.8s"/></g></g>
 </svg>
