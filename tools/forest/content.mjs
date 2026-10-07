@@ -33,14 +33,14 @@ export const JOBS = [
     role: 'AI Research Engineer',
     when: 'Jul 2026 - Present',
     where: 'Selangor, Malaysia',
-    points: ['Enterprise RAG on OpenSearch and Nomic embeddings', 'Fine-tuned Qwen, Mistral, Phi-4, DeepSeek R1', '98.4% verified accuracy on 9,058 certificate layouts'],
+    points: ['Enterprise RAG on OpenSearch and Nomic embeddings', 'Fine-tuned Qwen, Mistral, Phi-4, DeepSeek R1', '98.4% verified identifier accuracy on 9,058 certificate layouts'],
   },
   {
     org: 'AI Engineering Consultant',
     role: 'Independent / Freelance',
     when: 'May 2024 - Jun 2026',
     where: 'Remote',
-    points: ['Resume ranking for 200+ CVs a day, about 78% less screening', 'GPT interview agent rated 4.7 / 5 by 50+ users', 'Recruiting CRM and automated Power BI reporting'],
+    points: ['Resume ranking for 200+ CVs a day, about 78% less manual screening time', 'GPT interview agent rated 4.7 / 5 by 50+ users', 'Recruiting CRM and automated Power BI reporting'],
   },
   {
     org: 'Lewis University',
@@ -88,7 +88,7 @@ export const PROJECTS = [
     points: ['Intake, matters, documents, invoicing, payroll', 'Firm isolation, RBAC/RLS, ethical walls, MFA', 'Permission-aware AI document analysis'],
     tech: 'Next.js, TypeScript, Supabase, PostgreSQL',
     href: 'https://legal-practice-platform-seven.vercel.app/',
-    cta: 'Open the live demo',
+    cta: 'Visit the platform',
   },
   {
     id: 'watermelon',
@@ -106,7 +106,7 @@ export const PROJECTS = [
     points: ['Natural-language analytics and forecasting', 'Alerts with signed human approval', 'Python, Groq, Prophet, FastAPI'],
     tech: 'Python, Groq, Prophet, FastAPI',
     href: 'https://www.sathishlella.online',
-    cta: 'See it in the portfolio',
+    cta: 'Start the walk',
   },
   {
     id: 'contractscan',
@@ -124,7 +124,7 @@ export const PROJECTS = [
     points: ['Randomized conditions, server-side logic', 'LLM orchestration with safety constraints', 'Built for a planned 300+ participant study'],
     tech: 'Next.js/React, Supabase/PostgreSQL',
     href: 'https://www.sathishlella.online',
-    cta: 'See it in the portfolio',
+    cta: 'Start the walk',
   },
   {
     id: 'selfheal',
@@ -142,7 +142,7 @@ export const PROJECTS = [
     points: ['ATS AI, Dr. Arun AI dashboard, Velden Vault', 'Velden Health, YewYew Coffee, F1 website and CRM', 'Local image and video generation dashboard'],
     tech: 'Web products and client sites',
     href: 'https://www.sathishlella.online',
-    cta: 'Browse it in the portfolio',
+    cta: 'Start the walk',
   },
   {
     id: 'walk',
@@ -174,12 +174,12 @@ export const PUBS = [
   },
   {
     venue: 'Springer',
-    title: 'Analysis of Received Signal Strength Based on User Position Locating by Using ML Method',
+    title: 'Analysis of Received Signal Strength Based on User Position Locating by Using ML Methods',
     id: 'Machine learning for locating user position',
     href: 'https://link.springer.com/chapter/10.1007/978-981-15-7511-2_22',
   },
   {
-    venue: 'Zenodo',
+    venue: 'Zenodo preprint',
     title: 'Standardizing Denial Management in Behavioral Health: A Quantitative Audit Protocol for Practice Revenue-Cycle Maturity',
     id: 'DOI 10.5281/zenodo.18453640',
     href: 'https://doi.org/10.5281/zenodo.18453640',

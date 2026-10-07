@@ -31,7 +31,7 @@ export const C = {
   line: '#2a3a6a',
 };
 
-export const SERIF = "Fraunces, 'Iowan Old Style', 'Palatino Linotype', Georgia, serif";
+export const SERIF = "Fraunces, 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Liberation Serif', 'Noto Serif', serif";
 export const SANS = "'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif";
 export const MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
 
@@ -176,7 +176,7 @@ export function oakPath(x, by, h, w, rand) {
     const bx = x + Math.cos(a) * w * 0.34 * (0.6 + rand() * 0.6);
     const byy = by - h * 0.72 + Math.sin(a) * h * 0.2 * (0.6 + rand() * 0.6);
     const rr = w * (0.24 + rand() * 0.14);
-    parts.push(`M${r1(bx - rr)} ${r1(byy)}a${r1(rr)} ${r1(rr)} 0 1 0 ${r1(rr * 2)} 0a${r1(rr)} ${r1(rr)} 0 1 0 ${r1(-rr * 2)} 0Z`);
+    parts.push(`M${r1(bx - rr)} ${r1(byy)}a${r1(rr)} ${r1(rr)} 0 1 1 ${r1(rr * 2)} 0a${r1(rr)} ${r1(rr)} 0 1 1 ${r1(-rr * 2)} 0Z`);
   }
   return parts.join('');
 }
@@ -253,10 +253,14 @@ export function fern(x, y, size, rot, color, seed = 1) {
 // (seated in a canoe, hand on the paddle) or 'wave' (standing, right arm waving).
 export function guide({ pose = 'wave', flip = false } = {}) {
   const head = `
+<path d="M-19 -70Q-26 -86 -15 -99Q-6 -90 6 -97Q-1 -80 8 -69Z" fill="${C.hoodieDark}"/>
+<rect x="-5" y="-78" width="10" height="11" rx="4" fill="#c98e63"/>
 <circle cx="0" cy="-86" r="15" fill="${C.skin}"/>
+<path d="M-15 -90Q-16 -101 -8 -104L-2 -99Q-8 -96 -15 -90Z" fill="#231a17"/>
 <path d="M-15 -90Q-14 -108 2 -108Q16 -107 15 -90Q4 -96 -15 -90Z" fill="${C.cap}"/>
+<path d="M-8 -104Q2 -110 12 -104" fill="none" stroke="#ff8a60" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"/>
 <path d="M8 -92Q26 -93 27 -88Q18 -86 8 -87Z" fill="#d6431f"/>
-<path d="M-15 -90Q-15 -97 -11 -100" stroke="#231a17" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<path d="M0 -84l-2 6l4 0" stroke="#b97a52" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="9" cy="-84" r="5.4" fill="none" stroke="#1b1f2a" stroke-width="1.5"/>
 <circle cx="9.6" cy="-84" r="1.4" fill="#1b1f2a"/>
 <path d="M4 -73Q10 -70 15 -73" stroke="#7a3a2a" stroke-width="1.4" fill="none" stroke-linecap="round"/>`;
@@ -265,17 +269,19 @@ export function guide({ pose = 'wave', flip = false } = {}) {
 <rect x="-24" y="-64" width="6" height="8" rx="2" fill="#1d3f7a"/>
 <path d="M-16 -70Q-20 -50 -14 -30L16 -30Q22 -50 14 -70Q0 -76 -16 -70Z" fill="${C.hoodie}"/>
 <path d="M-14 -70Q0 -60 14 -70" fill="none" stroke="${C.hoodieDark}" stroke-width="2"/>
+<path d="M-9 -48Q0 -43 9 -48" fill="none" stroke="${C.hoodieDark}" stroke-width="1.6" stroke-linecap="round"/>
 <rect x="-14" y="-33" width="30" height="5" rx="2" fill="#cf3a2a"/>`;
   const farArm = `<g class="paddle" style="transform-box:view-box;transform-origin:2px -58px"><path d="M0 -60Q18 -78 34 -94" stroke="${C.hoodieDark}" stroke-width="8" stroke-linecap="round" fill="none"/></g>`;
   const nearArm = `<g class="paddle" style="transform-box:view-box;transform-origin:2px -58px"><path d="M4 -60Q28 -50 51 -58" stroke="${C.hoodie}" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="52" cy="-58" r="4.8" fill="${C.skin}"/></g>`;
   const armWave = `
 <g class="wave" style="transform-box:view-box;transform-origin:2px -60px">
 <path d="M2 -60Q22 -68 30 -92" stroke="${C.hoodie}" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M27 -89l7 -2" stroke="#cf3a2a" stroke-width="4.4" stroke-linecap="round"/>
 <circle cx="31" cy="-98" r="5.4" fill="${C.skin}"/>
 <path d="M27 -103l0 -6M31 -104l0 -7M35 -103l0 -6" stroke="${C.skin}" stroke-width="2.4" stroke-linecap="round"/>
 </g>`;
   const armDown = `<path d="M-2 -58Q6 -42 4 -30" stroke="${C.hoodie}" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="4" cy="-27" r="4.6" fill="${C.skin}"/>`;
-  const legs = `<rect x="-11" y="-30" width="9" height="34" rx="3" fill="${C.pants}"/><rect x="2" y="-30" width="9" height="34" rx="3" fill="${C.pants}"/><path d="M-13 4h13l4 5h-17Z M1 4h13l5 5h-18Z" fill="#c9ccd6"/>`;
+  const legs = `<rect x="-11" y="-30" width="9" height="34" rx="3" fill="${C.pants}"/><rect x="2" y="-30" width="9" height="34" rx="3" fill="${C.pants}"/><path d="M-14 4h11l4 5h-15Z M3 4h12l5 5h-17Z" fill="#c9ccd6"/><path d="M-14 8h15M3 8h17" stroke="#7d8294" stroke-width="1.2"/>`;
   const walking = pose === 'wave';
   return `<g${flip ? ' transform="scale(-1 1)"' : ''}>${walking ? '' : farArm}${body}${walking ? legs + armDown : nearArm}${head}${walking ? armWave : ''}</g>`;
 }
@@ -331,10 +337,10 @@ export function textLines(lines, { x, y, size = 18, lh = 1.45, fill = C.muted, f
 }
 
 // Section heading in the portfolio's style: small spaced amber eyebrow, big serif title, optional sub.
-export function heading({ eyebrow, title, sub, x = 64, y = 80, size = 54, w = 760 }) {
-  let out = `<text x="${x}" y="${y}" font-family="${SANS}" font-size="13" letter-spacing="5.5" fill="${C.amber}" opacity=".95">${esc(eyebrow)}</text>`;
+export function heading({ eyebrow, title, sub, x = 64, y = 54, size = 54, w = 760 }) {
+  let out = `<text x="${x}" y="${y}" font-family="${SANS}" font-size="15" letter-spacing="5" fill="${C.amber}" opacity=".95">${esc(eyebrow)}</text>`;
   out += `<g class="bob" style="animation-duration:9s"><text x="${x + 2}" y="${y + size + 6}" font-family="${SERIF}" font-size="${size}" fill="#02040b" opacity=".6">${esc(title)}</text><text x="${x}" y="${y + size + 4}" font-family="${SERIF}" font-size="${size}" fill="${C.cream}">${esc(title)}</text></g>`;
-  if (sub) out += textLines(wrap(sub, w, 19), { x, y: y + size + 40, size: 19, fill: C.muted });
+  if (sub) out += textLines(wrap(sub, w, 20), { x, y: y + size + 40, size: 20, fill: '#c3cce2' });
   return out;
 }
 
