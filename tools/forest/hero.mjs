@@ -21,12 +21,13 @@ export function hero() {
   let css = `
 @keyframes driftS{0%{transform:translateX(-6px)}100%{transform:translateX(6px)}}
 @keyframes driftM{0%{transform:translateX(-16px)}100%{transform:translateX(16px)}}
-.dS{animation:driftS 17s ease-in-out infinite alternate}
-.dM{animation:driftM 14s ease-in-out infinite alternate}
+.dS{animation:driftS 16s ease-in-out infinite alternate}
+.dM{animation:driftM 16s ease-in-out infinite alternate}
 @keyframes rad{0%{transform:scale(1);opacity:0}18%{opacity:.4}100%{transform:scale(11);opacity:0}}
 .rad{transform-box:view-box;transform-origin:${VP[0]}px ${VP[1]}px;animation:rad 7s cubic-bezier(.55,0,.95,.5) infinite}
 @keyframes ty{0%{opacity:0}.5%{opacity:1}14%{opacity:1}14.5%{opacity:0}100%{opacity:0}}
 .ty{animation:ty 18.4s linear infinite}
+@media (prefers-reduced-motion:reduce){.ty0{opacity:1!important}.bk{display:none}}
 `;
   let defs = GRADS;
   defs += `
@@ -35,13 +36,13 @@ export function hero() {
 <linearGradient id="riv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a4d7d"/><stop offset=".18" stop-color="#1c2f5a"/><stop offset="1" stop-color="#08132b"/></linearGradient>
 <linearGradient id="fallsG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3f8ff" stop-opacity=".9"/><stop offset="1" stop-color="#bcd2ff" stop-opacity=".55"/></linearGradient>
 <linearGradient id="glowcol" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8ccff" stop-opacity=".5"/><stop offset="1" stop-color="#b8ccff" stop-opacity="0"/></linearGradient>
-<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#050a17" stop-opacity=".55"/><stop offset=".6" stop-color="#050a17" stop-opacity="0"/></linearGradient>
+<radialGradient id="fade" cx="26%" cy="42%" r="40%" gradientTransform="translate(0 0)"><stop offset="0" stop-color="#050a17" stop-opacity=".5"/><stop offset="1" stop-color="#050a17" stop-opacity="0"/></radialGradient>
 <linearGradient id="landg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101e44"/><stop offset=".35" stop-color="#0a1432"/><stop offset="1" stop-color="#040815"/></linearGradient>
 <radialGradient id="mistg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#cfe0ff" stop-opacity=".55"/><stop offset="1" stop-color="#cfe0ff" stop-opacity="0"/></radialGradient>
 <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f74a8" stop-opacity="0"/><stop offset="1" stop-color="#5f74a8" stop-opacity=".38"/></linearGradient>
 `;
   const vg = vignette(W, H, 'vig', 0.62);
-  defs += vg.def;
+  defs += vg.def + `<clipPath id="hclip"><rect width="${W}" height="${H}" rx="22"/></clipPath>`;
 
   let body = '';
   // ---- sky
@@ -78,7 +79,7 @@ export function hero() {
   }
   body += `<rect x="640" y="180" width="120" height="140" fill="url(#glowcol)" opacity=".28"/>`;
   for (let i = 0; i < 5; i++) {
-    body += `<ellipse cx="${r1(676 + i * 12 + rand() * 10)}" cy="${VP[1] - 2}" rx="${r1(34 + rand() * 24)}" ry="${r1(9 + rand() * 6)}" fill="url(#mistg)" class="rise" style="animation-duration:${r1(4 + rand() * 3)}s;animation-delay:-${r1(rand() * 5)}s"/>`;
+    body += `<ellipse cx="${r1(676 + i * 12 + rand() * 10)}" cy="${VP[1] - 2}" rx="${r1(34 + rand() * 24)}" ry="${r1(9 + rand() * 6)}" fill="url(#mistg)" class="o rise" style="animation-duration:${r1(4 + rand() * 3)}s;animation-delay:-${r1(rand() * 5)}s"/>`;
   }
   body += `<ellipse cx="700" cy="${VP[1] - 4}" rx="130" ry="18" fill="url(#mistg)" opacity=".55" class="mist" style="animation-duration:15s"/>`;
 
@@ -90,7 +91,7 @@ export function hero() {
   // ---- ground and river
   body += `<rect y="${VP[1] + 6}" width="${W}" height="${H - VP[1] - 6}" fill="url(#landg)"/>`;
   body += `<path d="M666 ${VP[1]}L734 ${VP[1]}L1200 ${H}H200Z" fill="url(#riv)"/>`;
-  body += `<path d="M689 ${VP[1] + 2}L711 ${VP[1] + 2}L800 ${H}H600Z" fill="url(#glowcol)" opacity=".55" class="shim" style="animation-duration:5s"/>`;
+  body += `<path d="M689 ${VP[1] + 2}L711 ${VP[1] + 2}L800 ${H}H600Z" fill="url(#glowcol)" opacity=".55" class="o shim" style="animation-duration:5s"/>`;
   body += `<path d="M666 ${VP[1]}L200 ${H}" stroke="#4a63a8" stroke-opacity=".28" stroke-width="1.4"/><path d="M734 ${VP[1]}L1200 ${H}" stroke="#4a63a8" stroke-opacity=".28" stroke-width="1.4"/>`;
   // flow streaks toward the viewer
   for (let i = 0; i < 20; i++) {
@@ -119,7 +120,7 @@ export function hero() {
     const tree = rand() < 0.6 ? pinePath(0, 0, 150, 46, rand) : pinePath(0, 0, 190, 52, rand);
     bank.push({ dur, name, tree, delay: (i / 14) * dur });
   }
-  body += bank.map((b) => `<path d="${b.tree}" fill="#040919" stroke="#2b4386" stroke-opacity=".55" stroke-width="1.2" vector-effect="non-scaling-stroke" style="animation:${b.name} ${r1(b.dur)}s cubic-bezier(.62,.04,.94,.5) infinite -${r1(b.delay)}s"/>`).join('');
+  body += bank.map((b) => `<path class="bk" d="${b.tree}" fill="#040919" stroke="#2b4386" stroke-opacity=".55" stroke-width="1.2" vector-effect="non-scaling-stroke" style="animation:${b.name} ${r1(b.dur)}s cubic-bezier(.62,.04,.94,.5) infinite -${r1(b.delay)}s"/>`).join('');
 
   // ---- lanterns drifting down the river
   const lam = [];
@@ -133,9 +134,10 @@ export function hero() {
     const dur = 26;
     const name = `ln${i}`;
     css += `@keyframes ${name}{0%{transform:translate(${r1(sx)}px,${r1(sy)}px) scale(.05);opacity:0}7%{opacity:1}86%{opacity:1}100%{transform:translate(${r1(ex)}px,${r1(ey)}px) scale(${r1(S)});opacity:0}}`;
-    lam.push({ dur, name, delay: (i / LN) * dur });
+    const f = 0.3 + 0.62 * (i / LN);
+    lam.push({ dur, name, delay: (i / LN) * dur, rest: `translate(${r1(sx + (ex - sx) * f)} ${r1(sy + (ey - sy) * f)}) scale(${r1(0.12 + (S - 0.12) * f * f)})` });
   }
-  body += lam.map((l, i) => `<g style="animation:${l.name} ${l.dur}s cubic-bezier(.6,.03,.94,.55) infinite -${r1(l.delay)}s"><g class="bob" style="animation-duration:${r1(3 + (i % 4))}s">${lantern({ glow: 1.1, refl: true, seed: i + 2 })}</g></g>`).join('');
+  body += lam.map((l, i) => `<g transform="${l.rest}" style="animation:${l.name} ${l.dur}s cubic-bezier(.6,.03,.94,.55) infinite -${r1(l.delay)}s"><g class="bob" style="animation-duration:${r1(3 + (i % 4))}s">${lantern({ glow: 1.1, refl: true, seed: i + 2 })}</g></g>`).join('');
 
   // ---- the canoe with the guide
   body += `<g transform="translate(440 498) scale(1.22)">
@@ -182,11 +184,11 @@ export function hero() {
     [...ph].forEach((ch, i) => {
       if (ch === ' ') return;
       const delay = k * 4.6 + i * 0.065;
-      typed += `<text x="${r1(x0 + 24 + i * pitch)}" y="292" class="ty" opacity="0" style="animation-delay:${r1(delay)}s" fill="${C.amber}" font-family="${MONO}" font-size="22">${esc(ch)}</text>`;
+      typed += `<text x="${r1(x0 + 24 + i * pitch)}" y="292" class="ty${k === 0 ? ' ty0' : ''}" opacity="0" style="animation-delay:${r1(delay)}s" fill="${C.amber}" font-family="${MONO}" font-size="22">${esc(ch)}</text>`;
     });
   });
   body += `<g>
-<rect x="0" y="80" width="820" height="250" fill="url(#fade)"/>
+<ellipse cx="330" cy="215" rx="470" ry="170" fill="url(#fade)"/>
 <text x="${x0}" y="118" font-family="${SANS}" font-size="13" letter-spacing="6" fill="${C.amber}" opacity=".9">A WALK THROUGH THE FOREST</text>
 <g class="bob" style="animation-duration:8s">
 <text x="${x0 + 3}" y="203" font-family="${SERIF}" font-size="84" fill="#02040b" opacity=".65">Sathish Lella</text>
@@ -198,6 +200,8 @@ export function hero() {
 <text x="${x0 + 2}" y="292" font-family="${MONO}" font-size="22" fill="${C.dim}">&gt;</text>
 ${typed}
 </g>`;
+
+  body = `<g clip-path="url(#hclip)">${body}</g><rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="21.5" fill="none" stroke="${C.line}" stroke-opacity=".7" stroke-width="1.5"/>`;
 
   return doc({
     w: W,
