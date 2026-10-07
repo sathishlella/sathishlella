@@ -24,6 +24,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/snake-neon.svg?color_snake=%23FF006E&color_dots=%231a1a2e,%237c3aed,%2300f0ff,%23ff006e,%23ffd60a
+            dist/snake-forest.svg?color_snake=%23f2542d&color_dots=%2317254f,%23334a75,%23d48a3a,%23ffb45e,%23fff0cc
+
+      - name: Frame the forest snake as a night panel
+        run: |
+          sudo sed -i 's|</desc>|</desc><rect x="-16" y="-32" width="880" height="192" rx="22" fill="#0a1330" stroke="#2a3a6a" stroke-width="1.5"/>|' dist/snake-forest.svg
 
       - name: Push snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4.0.0

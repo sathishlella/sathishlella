@@ -1,0 +1,35 @@
+{
+ "since": "2018",
+ "followers": 25,
+ "repos": 65,
+ "stars": 74,
+ "contributions": 1431,
+ "commits": 762,
+ "issues": 17,
+ "prs": 0,
+ "currentStreak": 2,
+ "longestStreak": 13,
+ "langs": [
+  [
+   "TypeScript",
+   16
+  ],
+  [
+   "HTML",
+   14
+  ],
+  [
+   "Python",
+   12
+  ],
+  [
+   "JavaScript",
+   10
+  ],
+  [
+   "CSS",
+   1
+  ]
+ ],
+ "asOf": "2026-10-07"
+}
