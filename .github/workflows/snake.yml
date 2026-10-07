@@ -24,6 +24,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/snake-neon.svg?color_snake=%23FF006E&color_dots=%231a1a2e,%237c3aed,%2300f0ff,%23ff006e,%23ffd60a
+            dist/snake-forest.svg?color_snake=%23f2542d&color_dots=%23101a33,%23334a75,%23d48a3a,%23ffb45e,%23fff0cc
 
       - name: Push snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4.0.0
